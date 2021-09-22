@@ -3,7 +3,7 @@ from rest_framework.decorators import action
 from rest_framework import permissions
 from .models import Room
 from .serializers import RoomSerializer
-from .permission import IsOwner
+from .permissions import IsOwner
 
 
 class RoomViewSet(ModelViewSet):
